@@ -1,0 +1,41 @@
+body
+{
+    text-align: center;
+    font-family: Gotham;
+    background: linear-gradient(#d8dfea, #ffffff);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #3B5998;
+}
+
+@font-face { font-family: Gotham; src: url('g_medium.otf'); } 
+
+#left
+{
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+
+#right
+{
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#frame
+{
+    margin: 0;
+    border: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform: translate(-50%, -2%);
+}
